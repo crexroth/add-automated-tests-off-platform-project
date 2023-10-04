@@ -1,6 +1,6 @@
 #triggered everytime some one pushes code to a branch where this file exists
 name: Continuous Integration
-on: [push]
+on: [push, pull request]
 jobs:
   build:
     runs-on: ubuntu-latest
